@@ -1,0 +1,351 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: poppins;
+}
+
+body{
+	min-width: 100vh;
+	height: 630vh;
+}
+
+/*navbar*/
+
+.navbar{
+	display:flex;
+	justify-content: space-between;
+	padding: 1rem 5%;
+	background-color: #739EC0;
+	border-bottom: 2px solid #ffff;
+	position: fixed;
+	top:0;
+	right: 0;
+	left: 0;
+	z-index: 999;
+}
+
+.nav-login .login{
+	Border: 2px solid #2522D0;
+	border-radius: 8px;
+	padding: 5px 18px;
+	color: #ffff;
+}
+
+.nav-login .sign-up{
+	Border: 2px solid #2522D0;
+	background-color: #2522D0;
+	border-radius: 8px;
+	padding: 5px 20px;
+	color: #ffff;
+}
+
+.navbar .nav-content a,.nav-login a{
+	text-decoration: none;
+	color: #484850;
+	font-size: 16px;
+	margin: 18px;
+}
+
+.navbar .Logo{
+	font-weight: 700;
+	font-size: 20px;
+	color: #9EFFEE;
+}
+
+.navbar .nav-content a:hover{
+	color: #ffff;
+}
+
+/*navbar end*/
+
+
+/* Hero */
+
+#hero{
+	display: flex;
+	height: 100vh;
+	background: linear-gradient(251deg, #196CAF 16.23%, #083152 70.8%);
+	background-blend-mode: multiply; 
+} 
+
+.container{
+	width: 520px;
+	position: relative;
+	top: 35px;
+	right: 0;
+	left: 0;
+	background: rgba(217, 217, 217, 0.32);
+	backdrop-filter: blur(5.949999809265137px);
+	border-radius: 20px;
+	padding: 20px;
+	z-index: 99;
+
+}
+
+.content-left{
+	width: 55%;
+	padding: 100px;
+}
+
+.heading{
+	width: 600px;
+	color:#ffff;
+	font-size: 60px;
+	font-weight: 600;
+	line-height: 130%; /* 88.725px */
+ 	letter-spacing: -1.05px;
+}
+
+.sub-head{
+	width: 420px;
+	color: #ffff;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 15px 0;
+}
+
+.btn{
+	padding: 6px 30px;
+	border-radius: 8px;
+	background-color: #07439D;
+	border-style: none;
+	color: #ffff;
+	cursor: pointer;
+}
+
+.content-right{
+	width: 45%;
+	pading: 100%;
+}
+
+.image{
+	max-width: 56%;
+	height: 81.15%;
+	position: absolute;
+	top: 19.75%;
+	right: 0.025%;
+	left: %;
+	bottom: 0;
+}
+
+
+/* Content Part 1*/
+
+#part-1{
+	display: flex;
+}
+
+.part-1-left{
+	width: 50%;
+	padding: 7%;
+}
+
+.part-1-right{
+	width: 50%;
+	padding: 7%;
+}
+
+.heading-1{
+	font-size: 52px;
+	font-weight: 700;
+	color: #0F4A79;
+	line-height: 115%; /* 88.725px */
+	letter-spacing: -2.1px;
+}
+
+.subhead-1{
+	padding: 18px;
+	margin-top: 15px;
+}
+
+.container-2{
+	display: flex;
+}
+
+.subhead-1-1{
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+.deskripsi{
+	width: 440px;
+	margin-left: 54px;
+	font-size: 16px;
+}
+
+/* Content Part 2 */
+
+#part-2{
+	display: flex;
+	justify-content: space-around;
+	padding: 5px 7%;
+}
+
+.kolom-isi{
+	width: 380px;
+	background-color: rgba(101, 98, 98, 0.13);
+	backdrop-filter: blur(15px);
+	padding: 20px;
+	border-radius: 15px;
+}
+
+.title-deskripsi2{
+	font-size: 56px;
+}
+
+.deskripsi2{
+	width: 325px;
+}
+
+
+/* Shopping Cart */
+
+#shoping{
+	padding: 7%;
+}
+
+.container-cart{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.title-shop{
+	text-align: center;
+	font-size: 52px;
+	color: #0F4A79;
+	font-weight: 700;
+}
+
+.cart{
+	margin-top: 90px;
+	width: 380px;
+	height: 470px;
+	border-radius: 21px;
+	background: rgba(196, 206, 220, 0.67);
+	backdrop-filter: blur(15.050000190734863px);
+	cursor: pointer;
+}
+.gambar-shop{
+	width: 310px;
+	margin: 30px 34px;
+}
+
+.cart-title{
+	font-size: 23px;
+	margin-left: 33px;
+}
+
+.room{
+	font-size: 14px;
+	margin-left: 33px;
+	margin-top: 10px;
+}
+
+.price{
+	font-size: 15.65px;
+	font-weight: 700;
+	margin-left: 33px;
+}
+
+.star-icon{
+	width: 120px;
+	margin-left: 33px;
+	margin-top: 5px;
+}
+
+.more{
+	display: flex;
+	margin: 50px auto;
+	padding: 10px 52px;
+	font-size: 20px;
+	font-weight: 600;
+	border: none;
+	border-radius: 15px;
+	background: #0F4A79;
+	color: #ffff;
+	cursor: pointer;
+}
+
+
+/* Service Center */
+
+#service{
+	padding: 0 7%;
+}
+
+.service-title{
+	width: 900px;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 52px;
+	color: #0F4A79;
+	font-weight: 700;
+	line-height: 122.25%; /* 85.575px */
+}
+
+.service-us{
+	width: 380px;
+	height: 417px;
+	background: rgba(216, 222, 232, 0.67);
+	margin-top: 90px;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+.service-us:hover{
+	background-color: #A2C5FF;
+}
+
+.container-service{
+	display: flex;
+	justify-content: space-between;
+}
+
+.image-service{
+	width: 85px;
+	height: 85px;
+	margin: 49px 16px 0 41%;
+}
+
+.image-service-title{
+	font-size: 28px;
+	text-align: center;
+}
+
+.service-description{
+	width: 305px;
+	margin: 40px auto;
+	text-align: center;
+}
+
+/* Footer */
+
+footer{
+	background-color: #083152;
+	padding: 2rem 0;
+	margin-top: 6%;
+}
+
+footer .link{
+	margin-left: 36%;
+}
+
+footer .link a{
+	margin: 0 1rem;
+	color: #ffff;
+	text-decoration: none;
+}
+
+footer .credit{
+	padding: 0.5rem 0;
+	margin-top: 0.8rem;
+	margin-left: 41%;
+	color: #ffff;
+}
+
+footer .credit a{
+	color: #AFCFFF;
+	font-weight: 700;
+}
